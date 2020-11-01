@@ -1,0 +1,31 @@
+cara menambahkan project ke github by adi
+
+1. Login ke git 
+dengan 
+$ git config --global user.name "ShisuiDev"
+$ git config --global user.email "nugrahaadi733@gmail.com"
+
+2. lalu buat repository di github
+
+3. buka directory yang akan diupload ke github
+
+4. lalu klik kanan ke folder > git bash
+
+5. ketikan 
+$ git init
+$ git add * -f
+
+6. lalu commit
+$ git commit -m "comentar"
+
+7 lalu remote dengan perintah 
+$ git remote add origin https://github.com/ShisuiDev/NAMAREPOSITORY.git
+
+8. lalu fetch
+$ git fetch origin master
+// optional bisa nomer 9 dulu baru 8 dan sebaliknya
+
+9. lalu push	
+$ git push https://github.com/ShisuiDev/REPOSITORY --force -f
+
+done

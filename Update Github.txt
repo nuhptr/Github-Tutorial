@@ -1,0 +1,19 @@
+cara mengupdate github
+
+1. buka folder klik kanan > github bush
+
+lalu ketik git status
+jika sudah mmelakukan perubahan 
+
+lalu lakukan git add NAMAFILE.exsitensinya ..... (tambah)
+jika ingin menghapus git restore NAMAFILE.exsistensinya .....(hapus)
+
+setelah itu tambahkan ke commitnya
+git add (nama file yang ditambah tadi/dihapus tadi)
+
+ketik git commit -m "nama perubahannya"
+
+lalu push dengan perintah
+git push origin master --force -f
+
+done

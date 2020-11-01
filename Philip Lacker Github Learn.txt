@@ -1,0 +1,19 @@
+GIT
+1. git init -> initialized a new project
+2. git remote add origin https://github.com/nuhptr/repository.git
+   - git pull origin master
+3. git add . / -f
+4. git commit -m "bla bla"
+5. git push --set-upstream origin master
+
+
+git branch -a
+  experimental
+* master
+
+git branch "experimental"
+git branch -a
+* experimental
+  branch
+
+git checkout master (branch switches to master)
