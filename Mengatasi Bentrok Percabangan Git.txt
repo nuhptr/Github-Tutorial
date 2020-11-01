@@ -1,0 +1,22 @@
+Mengatasi Bentrok Saat membuat percabangan
+
+1. pindah ke name_branch
+git checkout name_branch
+
+2. Setela itu, edit file login.html atau index.html, 
+karena kedua file tersebut ada di kedua cabang yang akan kita gabungkan.
+$ git diff
+
+3. Merge setelah masing" di commit
+$ git merge halaman_login
+Auto-merging login.html
+CONFLICT (content): -> Merge conflict in login.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+
+4. lakukan perbaikan pada file lalu commit lagi
+git add login.html
+git commit -m "perbaiki konflik"
+
+5. Menghapus cabang
+git branch -d name_branch

@@ -1,0 +1,26 @@
+Menggunakan Percabangan Untuk Menghindari 
+Konflik
+
+1. Membuat cabang baru
+$ git branch nama_cabang
+
+2. untuk mengetahuinya
+$ git branch
+nama_cabang
+* master
+
+3. untuk pindah ke cabang lain 
+$ git checkout nama_branch
+
+4. tambahkan file seperti biasa
+$ git status
+$ git add . / file.extensi
+$ git commit -m "membuat file bla bla"
+$ git push
+
+5. Pindah ke branch master
+$ git checkout master
+$ git merge nama_branch
+
+6. untuk mengambil perubahan yang terjadi dari branch master
+$ git pull
